@@ -1,0 +1,12 @@
+{
+  "name": "debugging",
+  "version": "1.0.0",
+  "description": "Debugging primitives (capture logs, isolate issue, diagnose error, track bugs) with code/system/issue variant scaffolds.",
+  "author": {
+    "name": "Daniel Rosehill",
+    "url": "https://github.com/danielrosehill"
+  },
+  "repository": "https://github.com/danielrosehill/debugging-plugin",
+  "license": "MIT",
+  "keywords": ["debugging", "bug-tracker", "diagnosis", "logs", "hypotheses", "root-cause"]
+}
