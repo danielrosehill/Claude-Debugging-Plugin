@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Claude Bug Catcher
+Comment=Quick launcher for diagnosing system bugs with Claude
+Exec=__BUG_CATCHER_PATH__
+Icon=bug-buddy
+Terminal=false
+Type=Application
+Categories=Development;Utility;System;
+Keywords=bug;debug;claude;ai;diagnose;logs;

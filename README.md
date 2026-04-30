@@ -32,6 +32,12 @@ Part of the [danielrosehill Claude Code marketplace](https://github.com/danielro
 
 Scaffolds a new workspace (CLAUDE.md + the right directory structure for the chosen variant), personalises it from `~/.claude/CLAUDE.md`, and (by default) creates a public GitHub repo for it.
 
+### Bug Catcher (KDE quick-capture utility)
+
+- `/debugging:bug-catcher`
+
+Installs a hotkey-launchable kdialog quick-pick (`Super+B` recommended) that captures common Linux issues — GPU freeze, audio dropout, crash, OOM, USB, network, recurring — and immediately launches Claude in a fresh konsole with a prompt asking it to grep `journalctl --since '5 minutes ago'` and `dmesg` and propose a fix. Adaptable to GNOME (zenity + gnome-terminal).
+
 ## Pattern
 
 Primitives live in the plugin — globally available from any cwd.
